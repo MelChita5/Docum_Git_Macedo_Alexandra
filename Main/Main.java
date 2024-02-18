@@ -27,7 +27,17 @@ public class Main {
 
                 if (numeroSala >= 1 && numeroSala <= cine.getSalas().length){
 
+                    Sala salaSeleccionada = cine.getSalas()[numeroSala - 1];
 
+
+                    salaSeleccionada.mostrarInfo();
+
+
+                    System.out.print("Ingrese la fila (1-5): ");
+                    int fila = scanner.nextInt();
+
+                    System.out.print("Ingrese la columna (1-10): ");
+                    int columna = scanner.nextInt();
                 }
             case 3:
                 System.out.println("Saliendo...");
