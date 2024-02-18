@@ -83,10 +83,10 @@ o
 
             for (String butaca : fila) {
 
-
+                System.out.print(butaca + " ");
             }
 
-
+            System.out.println();
         }
     }
 }
