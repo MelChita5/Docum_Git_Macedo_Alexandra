@@ -8,6 +8,7 @@ public class Pelicula {
         this.duracion = duracion;
     }
 
+    // SETTERS  (establece un valor)
     public String getTitulo() {
         return titulo;
     }
@@ -16,7 +17,7 @@ public class Pelicula {
         return duracion;
     }
 
-
+    // SETTERS  (establece un valor)
 
     public void setTitulo(String titulo) {
         this.titulo = titulo;
