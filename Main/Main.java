@@ -19,13 +19,16 @@ public class Main {
 
         switch (opcion1){
             case 1:
-
+                cine.mostrarCartelera();
+                break;
             case 2:
 
             case 3:
-
+                System.out.println("Saliendo...");
+                break;
             default:
-
+                System.out.println("Saliendo...");
+                break;
 
         }
     }
