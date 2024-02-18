@@ -66,10 +66,10 @@ public class Sala {
 o
             butacas[fila - 1][columna - 1] = "[X]";
 
-
+            return true;
         }
 
-
+        return false;
     }
 
 }
