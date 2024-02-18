@@ -51,4 +51,16 @@ public class Cine {
         salas[3] = new Sala(4, 5, 10, pelicula4);
         salas[4] = new Sala(5, 5, 10, pelicula5);
     }
+
+    public void mostrarCartelera() {
+
+
+        System.out.println("<< Cartelera >>");
+
+        for (Sala sala : salas) {
+
+
+            sala.mostrarInfo();
+        }
+    }
 }
