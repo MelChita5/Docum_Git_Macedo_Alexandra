@@ -72,4 +72,21 @@ o
         return false;
     }
 
+    public void mostrarButacas() {
+
+        System.out.println();
+        System.out.println("Butacas actulizadas>>");
+
+
+        for (String[] fila : butacas) {
+
+
+            for (String butaca : fila) {
+
+
+            }
+
+
+        }
+    }
 }
