@@ -38,7 +38,17 @@ public class Main {
 
                     System.out.print("Ingrese la columna (1-10): ");
                     int columna = scanner.nextInt();
+                    if (salaSeleccionada.reservarButaca(fila, columna)) {
+                        System.out.println("Reserva realizada :D");
+                        salaSeleccionada.mostrarButacas();
+                    } else {
+                        System.out.println("La butaca no esta disponible.");
+                    }
+                } else {
+                    System.out.println("ERROR, numero de sala no valido.");
                 }
+                break;
+
             case 3:
                 System.out.println("Saliendo...");
                 break;
