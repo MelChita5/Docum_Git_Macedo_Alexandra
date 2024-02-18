@@ -22,7 +22,13 @@ public class Main {
                 cine.mostrarCartelera();
                 break;
             case 2:
+                System.out.print("Ingrese el número de sala (1 - 5): ");
+                int numeroSala = scanner.nextInt();
 
+                if (numeroSala >= 1 && numeroSala <= cine.getSalas().length){
+
+
+                }
             case 3:
                 System.out.println("Saliendo...");
                 break;
