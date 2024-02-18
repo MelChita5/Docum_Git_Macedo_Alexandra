@@ -48,4 +48,16 @@ public class Sala {
             }
         }
     }
+
+    public void mostrarInfo() {
+
+
+        System.out.println();
+        System.out.println("Sala " + numSala + ": " );
+        System.out.println("Pelicula: " + pelicula.getTitulo() + " - Duración: " + pelicula.getDuracion() + " minutos");
+        System.out.println();
+
+    }
+
+
 }
