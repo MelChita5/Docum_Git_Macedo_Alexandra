@@ -58,6 +58,18 @@ public class Sala {
         System.out.println();
 
     }
+    public boolean reservarButaca(int fila, int columna) {
 
+        if (	fila >= 1 && fila <= butacas.length &&
+                columna >= 1 && columna <= butacas[0].length &&
+                !butacas[fila - 1][columna - 1].equals("[X]")) {
+o
+            butacas[fila - 1][columna - 1] = "[X]";
+
+
+        }
+
+
+    }
 
 }
