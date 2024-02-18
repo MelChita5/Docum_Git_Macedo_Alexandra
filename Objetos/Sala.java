@@ -12,4 +12,27 @@ public class Sala {
         this.pelicula = pelicula;
 
     }
+    public int getNumSala() {
+        return numSala;
+    }
+
+    public void setNumSala(int numSala) {
+        this.numSala = numSala;
+    }
+
+    public String[][] getButacas() {
+        return butacas;
+    }
+
+    public void setButacas(String[][] butacas) {
+        this.butacas = butacas;
+    }
+
+    public Pelicula getPelicula() {
+        return pelicula;
+    }
+
+    public void setPelicula(Pelicula pelicula) {
+        this.pelicula = pelicula;
+    }
 }
