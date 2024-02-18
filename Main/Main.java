@@ -16,5 +16,17 @@ public class Main {
         );
 
         int opcion1 = scanner.nextInt();
+
+        switch (opcion1){
+            case 1:
+
+            case 2:
+
+            case 3:
+
+            default:
+
+
+        }
     }
 }
