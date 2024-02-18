@@ -35,4 +35,17 @@ public class Sala {
     public void setPelicula(Pelicula pelicula) {
         this.pelicula = pelicula;
     }
+
+    private void inicializarButacas() {
+
+
+        for (int i = 0; i < butacas.length; i++) {
+
+
+            for (int j = 0; j < butacas[i].length; j++) {
+
+                butacas[i][j] = "[ ]";
+            }
+        }
+    }
 }
