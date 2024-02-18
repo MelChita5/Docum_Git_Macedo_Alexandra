@@ -7,5 +7,14 @@ public class Main {
 
         Cine cine = new Cine("Cine Cinesa", 500);
         cine.inicializarSalas();
+
+        System.out.println(
+                "Bienvenidos a " + cine.getNombreCine() + "\n" +
+                        "1.- Ver Películas en Cartelera\n" +
+                        "2.- Comprar Entrada\n" +
+                        "3.- Salir"
+        );
+
+        int opcion1 = scanner.nextInt();
     }
 }
