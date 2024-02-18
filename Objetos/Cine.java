@@ -35,6 +35,7 @@ public class Cine {
     public void setSalas(Sala[] salas) {
         this.salas = salas;
     }
+
     public void inicializarSalas() {
 
         //creacion de datos de las peliculas
@@ -57,9 +58,10 @@ public class Cine {
 
         System.out.println("<< Cartelera >>");
 
+        // blucle for each el cual recorrera las 5 salas coloandoles su corespondiente numero
         for (Sala sala : salas) {
 
-
+            // y se imprimira los datos de la pelicula, son su numero de sala correspondiente
             sala.mostrarInfo();
         }
     }
